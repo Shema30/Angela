@@ -1,52 +1,25 @@
-// const calcArea = function(radius){
-//     let a = (3.14 * radius**2)
-//     return a
+// var num = []
+// for (num.length = 0; num.length <= 100; num.length++){
+//     if (num.length % 3 == 0){
+//         num.push("Fizz")
+//     }
+//     else if (num.length % 5 == 0){
+//         num.push("Buzz")
+//     }
+//     else if (num.length % 3 == 0 && num.length % 5 == 0){
+//         num.push("FizzBuzz")
+//     }
 // }
 
-// Arrow functions
+// console.log(num)
 
-// const calcArea = (radius) => {
-//     return (3.14 * radius**2)
-// }
+var output = []
 
-// radiuss = 5
-// const area = calcArea(radiuss)
-// console.log(area)
-
-// function bmiCalculator(weight,height){
-//     return Math.round(weight / (height**2))
-// }
-// var weightInput = prompt("Enter your weight")
-// var heightInput = prompt("Enter your height")
-// var bmi = bmiCalculator(weightInput, heightInput); 
-// console.log(bmi)
-
-function checkBMI (weight, height){
-
-    var bmi = (weight / (height**2))
-
-    if(bmi < 18.5){
-        console.log(bmi)
-        return ("You are Underweight")
+function FizzBuzz (){
+    for (var i = 1; i <= 100; i++){
+        output.push(i)
     }
-
-    else if (bmi >= 18.5 && bmi <= 24.9){
-        console.log(bmi)
-        return ("You have Normal Weight")
-    }
-
-    else (bmi > 25); {
-        console.log(bmi)
-        return ("You are Overweight")
-    }
-    
+    console.log(output)
 }
 
-checkBMI(72,1.88)
-
-
-
-// var name1="Serge"
-// var name2="Kevine"
-// var loveScore = Math.floor((Math.random()*100)+1)
-// alert("Your love match is "+loveScore)
+FizzBuzz()
