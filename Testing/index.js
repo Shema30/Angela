@@ -26,23 +26,23 @@ function checkBMI (weight, height){
     var bmi = (weight / (height**2))
 
     if(bmi < 18.5){
-        // console.log(bmi)
+        console.log(bmi)
         return ("You are Underweight")
     }
 
     else if (bmi >= 18.5 && bmi <= 24.9){
-        // console.log(bmi)
+        console.log(bmi)
         return ("You have Normal Weight")
     }
 
     else (bmi > 25); {
-        // console.log(bmi)
+        console.log(bmi)
         return ("You are Overweight")
     }
     
 }
 
-checkBMI(50,2)
+checkBMI(72,1.88)
 
 
 
