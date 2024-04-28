@@ -14,12 +14,27 @@
 // console.log(num)
 
 var output = []
+var i = 1
 
-function FizzBuzz (){
-    for (var i = 1; i <= 100; i++){
+function FizzBuzz() {
+
+    if (i % 3 == 0) {
+        output.push("fizz")
+    }
+    else if (i % 5 == 0) {
+        output.push("buzz")
+    }
+    else if (i % 3 == 0 && i % 5 == 0) {
+        output.push("fizzbuzz")
+    }
+    else {
         output.push(i)
     }
+    i++
     console.log(output)
 }
 
+FizzBuzz()
+FizzBuzz()
+FizzBuzz()
 FizzBuzz()
