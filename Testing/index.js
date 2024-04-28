@@ -13,28 +13,40 @@
 
 // console.log(num)
 
-var output = []
-var i = 1
+// var output = []
+// var i = 1
 
-function FizzBuzz() {
+// function FizzBuzz() {
 
-    if (i % 3 == 0) {
-        output.push("fizz")
-    }
-    else if (i % 5 == 0) {
-        output.push("buzz")
-    }
-    else if (i % 3 == 0 && i % 5 == 0) {
-        output.push("fizzbuzz")
-    }
-    else {
-        output.push(i)
-    }
-    i++
-    console.log(output)
+//     if (i % 3 == 0) {
+//         output.push("fizz")
+//     }
+//     else if (i % 5 == 0) {
+//         output.push("buzz")
+//     }
+//     else if (i % 3 == 0 && i % 5 == 0) {
+//         output.push("fizzbuzz")
+//     }
+//     else {
+//         output.push(i)
+//     }
+//     i++
+//     console.log(output)
+// }
+
+// FizzBuzz()
+// FizzBuzz()
+// FizzBuzz()
+// FizzBuzz()
+
+// =====================Challenge====================================
+
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+
+function whospaying(names){
+    var randomName = Math.random() * names.length
+    var paying = names[Math.floor(randomName)]
+    console.log(paying + " is paying the bill")
 }
 
-FizzBuzz()
-FizzBuzz()
-FizzBuzz()
-FizzBuzz()
+whospaying(names)
