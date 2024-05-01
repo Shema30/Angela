@@ -70,5 +70,5 @@ function fibonacci(n) {
     return output
 }
 
-var result = fibonacci(4)
+var result = fibonacci(10)
 console.log(result)
