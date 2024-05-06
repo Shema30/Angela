@@ -9,9 +9,9 @@
 
 // sum(displayConsole, 1, 2)
 
-function hello (callback) {
+function hello (call) {
     console.log("hello")
-    callback()
+    call()
 }
 
 function goodbye () {
