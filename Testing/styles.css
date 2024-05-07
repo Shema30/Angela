@@ -1,5 +1,3 @@
-.feature-icon {
-  width: 4rem;
-  height: 4rem;
-  border-radius: .75rem;
+.hover:hover {
+  color: green;
 }
